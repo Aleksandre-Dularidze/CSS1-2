@@ -1,14 +1,165 @@
-body {
-	margin: 0;
-	padding: 0;
+* {
 	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
 }
-h1 {
+
+#contentOne {
+	width: 568px;
+	margin-left: 55px;
+}
+
+#headerBox {
 	text-align: center;
+	margin: 24px 0 37px 0;
+}
+
+#headerText {
 	font-size: 72px;
 }
+
+#nightBox {
+	margin: 37px 0 12px 0px;
+}
+
 #staryNight {
 	width: 568px;
 	height: 446px;
-	margin: 37px 0 12px 55px;
+}
+
+#cotitleBox {
+	margin: 12px 0 16px 0px;
+}
+
+#coTitle {
+	font-size: 40px;
+	text-align: center;
+}
+
+#textBox {
+	margin: 16px 0px;
+}
+
+#firstPar {
+	font-size: 20px;
+	text-align: center;
+}
+
+#listBox {
+	margin: 16px 0px 32px 0px;
+
+}
+
+#firstList {
+	line-height: 24px;
+	color: #155EEF;
+}
+
+#readMore {
+	margin: 32px 0px 74px 0px;
+	border: 2px solid #CEA201;
+	text-align: center;
+	width: 173px;
+	padding: 12px 32px;
+
+}
+
+#readSpan {
+	color: #CEA201;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+#contentTwo {
+	margin-left: 55px;
+	width: 770px;
+}
+
+#boxTwo {
+	margin: 74px 0px 16px 0px;
+}
+
+#headerTwo {
+	font-size: 40px;
+	text-align: center;
+}
+
+#magicBox {
+	margin: 16px 0px 24px 0px;
+}
+
+#secondPar {
+	text-align: center;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+#headBox {
+	margin: 24px 0px 16px 0px;
+}
+
+#headerThree {
+	color: #00C76E;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+}
+
+#listDiv {
+	margin: 16px 0px 24px 186px;
+}
+
+#listTwo {
+	color: #FF5DA3;
+	line-height: 24px;
+}
+
+#imgBox {
+	margin: 24px 0px 24px 0px;
+}
+
+#imgTwo {
+	width: 200px;
+	height: 200px;
+}
+
+#bigBox {
+	width: 722px;
+	border: 6px solid #c11574;
+	background-color: #FFDEF0;
+	padding: 16px;
+	margin: 24px 0px 24px 0px;
+}
+
+#textH {
+	font-size: 24px;
+	line-height: 24px;
+	margin-bottom: 16px;
+	color: #414651;
+}
+
+#listItem {
+	color: #c27515;
+	line-height: 24px;
+	margin-left: 16px;
+}
+
+#leastBox {
+	margin: 24px 0 24px 0px;
+}
+
+#finalImg {
+	width: 300px;
+	height: 400px;
+}
+
+#lastBox {
+	margin: 24px 0px 119px 561px;
+	width: 200px;
+}
+
+#lastItem {
+	color: #00D4BC;
+	font-size: 24px;
+	line-height: 32px;
 }
