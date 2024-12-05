@@ -1,7 +1,17 @@
 * {
-	box-sizing: border-box;
 	margin: 0 auto;
 	padding: 0;
+	box-sizing: border-box;
+}
+
+
+header {
+	text-align: center;
+	margin: 24px 0 37px 0;
+}
+
+h1 {
+	font-size: 72px;
 }
 
 #contentOne {
@@ -9,48 +19,27 @@
 	margin-left: 55px;
 }
 
-#headerBox {
-	text-align: center;
-	margin: 24px 0 37px 0;
-}
-
-#headerText {
-	font-size: 72px;
-}
-
-#nightBox {
-	margin: 37px 0 12px 0px;
-}
-
 #staryNight {
 	width: 568px;
 	height: 446px;
+	margin: 37px 0 12px 0px;
+	display: block;
 }
 
-#cotitleBox {
+#nightHeader {
 	margin: 12px 0 16px 0px;
-}
-
-#coTitle {
 	font-size: 40px;
 	text-align: center;
 }
 
-#textBox {
-	margin: 16px 0px;
-}
-
-#firstPar {
+#nightSky {
 	font-size: 20px;
 	text-align: center;
 }
 
 #listBox {
-	margin: 16px 0px 32px 0px;
-
-}
-
-#firstList {
+	display: block;
+	margin: 16px 0px 32px 15px;
 	line-height: 24px;
 	color: #155EEF;
 }
@@ -61,13 +50,12 @@
 	text-align: center;
 	width: 173px;
 	padding: 12px 32px;
-
+	font-size: 24px;
 }
 
-#readSpan {
+#clickLink {
 	color: #CEA201;
-	font-size: 24px;
-	line-height: 32px;
+	text-decoration: none;
 }
 
 #contentTwo {
@@ -75,55 +63,42 @@
 	width: 770px;
 }
 
-#boxTwo {
-	margin: 74px 0px 16px 0px;
-}
-
-#headerTwo {
+#MagicHeader {
 	font-size: 40px;
 	text-align: center;
+
 }
 
-#magicBox {
-	margin: 16px 0px 24px 0px;
-}
-
-#secondPar {
+#didText {
 	text-align: center;
 	font-size: 20px;
 	line-height: 24px;
+	margin: 16px 0px 24px 0px;
 }
 
-#headBox {
-	margin: 24px 0px 16px 0px;
-}
-
-#headerThree {
+#hereHeader {
 	color: #00C76E;
 	font-size: 20px;
 	line-height: 24px;
 	text-align: center;
 }
 
-#listDiv {
-	margin: 16px 0px 24px 186px;
-}
-
-#listTwo {
+#workList {
 	color: #FF5DA3;
 	line-height: 24px;
+	margin: 16px 0px 24px 186px;
+	display: block;
 }
 
-#imgBox {
-	margin: 24px 0px 24px 0px;
-}
-
-#imgTwo {
+#imageWing {
 	width: 200px;
 	height: 200px;
+	margin-left: 6px;
+	margin-bottom: -5px;
+	display: block;
 }
 
-#bigBox {
+#borderBox {
 	width: 722px;
 	border: 6px solid #c11574;
 	background-color: #FFDEF0;
@@ -131,35 +106,32 @@
 	margin: 24px 0px 24px 0px;
 }
 
-#textH {
+#whereHeader {
 	font-size: 24px;
 	line-height: 24px;
-	margin-bottom: 16px;
+	padding-bottom: 16px;
 	color: #414651;
 }
 
-#listItem {
+#listItems {
 	color: #c27515;
 	line-height: 24px;
 	margin-left: 16px;
 }
 
-#leastBox {
-	margin: 24px 0 24px 0px;
-}
-
-#finalImg {
+#seaHorse {
 	width: 300px;
 	height: 400px;
+	margin: 24px 0 24px 6px;
+	display: block;
 }
 
-#lastBox {
-	margin: 24px 0px 119px 561px;
-	width: 200px;
-}
-
-#lastItem {
+#seeLink {
 	color: #00D4BC;
 	font-size: 24px;
 	line-height: 32px;
+	text-decoration: none;
+	border-bottom: 2px solid #00D4BC;
+	margin: 24px 0px 119px 561px;
+	display: block;
 }
